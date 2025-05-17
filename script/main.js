@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-    
+    //
     // Efeito nas redes sociais
     const contactLink = document.querySelector('a[href="#contact"]');
     if (contactLink) {
