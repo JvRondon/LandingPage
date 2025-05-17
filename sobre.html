@@ -4,52 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imgs/JV__1_-removebg-preview.png">
-    <title>João Victor</title>
+    <title>Sobre João Victor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/sobre.css">
     <script src="script/main.js"></script>
 </head>
 <body>
- <nav class="navbar">
+    <nav class="navbar">
         <a href="index.html" class="nav-logo">
             <img src="imgs/JV__1_-removebg-preview.png" alt="JV Logo" class="logo-image">
         </a>
+        
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="sobre.html" class="active" id="nav-about">Sobre</a>
+            <a href="index.html#tech" id="nav-tech">Tecnologias</a>
+            <a href="https://github.com/JvRondon?tab=repositories">Projetos</a>
+            <a href="index.html#contact" id="nav-contact">Contato</a>
+        </div>
+        
         <div class="language-switcher">
             <button class="language-btn" id="googleTranslateBtn">
                 <i class="fas fa-globe"></i> <span id="currentLanguage">Português</span>
             </button>
         </div>
-</nav>
+    </nav>
 
-<div class="container-sobre">
+    <div class="container-sobre">
         <section class="bio-section">
-            <h1>
-                <i class="fas fa-rocket rocket-icon"></i>
-                MINHA JORNADA
+            <h1 id="about-title">
+                <i class="fas fa-rocket rocket-icon" ></i>
+               <journey id="journey">MINHA JORNADA</journey>
             </h1>
             
             <div class="bio-content">
                 <img src="imgs/foto_de_perfil.jpg" alt="João Victor Rondon" class="bio-image">
                 
                 <div class="bio-text">
-                    <h2>João Victor Rondon Vincensi</h2>
-                    <h3>Desenvolvedor Full-Stack & Educador</h3>
+                    <h2 id="about-name">João Victor Rondon Vincensi</h2>
+                    <h3 id="about-role">Desenvolvedor & Educador</h3>
                     
                     <div class="bio-details">
-                        <p><strong>Idade:</strong> 20 anos</p>
-                        <p><strong>Localização:</strong> Campo Grande, MS - Brasil</p>
-                        <p><strong>Experiência:</strong> 4+ anos</p>
+                        <p><strong id="about-age">Idade:</strong> 20 <change id="about-ageText">anos</change> </p>
+                        <p><strong id="about-location">Localização:</strong> Campo Grande, MS - Brasil</p>
+                        <p><strong id="about-exp">Experiência:</strong> 4+ anos</p>
                     </div>
                     
                     <div class="bio-story">
-                        <p>Atuo como professor de programação e robótica, além de ministrar aulas particulares de inglês e tecnologia</p>
-                        <p>Ainda cursando engenharia de software, possuindo conhecimento em desenvolvimento web, consultas SQL e criação de jogos</p>
-                        <p>Com experiência em órgãos públicos e no setor privado, busco sempre unir prática e didática na área de tecnologia</p>
+                        <p id="about-desc1">Atuo como professor de programação e robótica, além de ministrar aulas particulares de inglês e tecnologia</p>
+                        <p id="about-desc2">Ainda cursando engenharia de software, possuindo conhecimento em desenvolvimento web, consultas SQL e criação de jogos</p>
+                        <p id="about-desc3">Com experiência em órgãos públicos e no setor privado, busco sempre unir prática e didática na área de tecnologia</p>
                     </div>
                     
-                   <a href="doc/Currículo João Victor Rondon.pdf" download class="download-btn">
-                             <i class="fas fa-download"></i> Baixar Currículo
-                    </a>
+                    <a href="doc/Currículo João Victor Rondon.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i> <span id="download-btn">Baixar Currículo</span>
                     </a>
                 </div>
             </div>
@@ -57,9 +65,9 @@
     </div>
 
     <footer id="contact">
-        
-        <p class="copyright">© 2024 João Victor Rondon. Todos os direitos reservados.</p>
+        <p class="copyright" id="copyrightID">© 2025 João Victor Rondon. Todos os direitos reservados.</p>
     </footer>
+    
     <div class="floating-social">
         <a href="https://github.com/JvRondon" target="_blank" class="social-link highlight-target"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-rondon/" target="_blank" class="social-link highlight-target"><i class="fab fa-linkedin"></i></a>

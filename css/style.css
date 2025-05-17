@@ -190,6 +190,7 @@ section {
 
 .hero {
     padding: 4rem 0 6rem;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -218,6 +219,10 @@ section {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 1rem;
     margin: 2rem 0;
+}
+
+#tech{
+    padding-top: 20px;
 }
 
 .tech-item {
