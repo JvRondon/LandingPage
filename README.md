@@ -14,4 +14,4 @@ JavaScript
 📁 Como visualizar
 Você pode acessar a página publicada:
 
-🔗 Acesse aqui https://jvrondon.github.io/landing-page/
+🔗 Acesse aqui https://jvrondon.github.io/LandingPage/
