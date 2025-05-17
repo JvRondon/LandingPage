@@ -61,6 +61,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             'about-role': { pt: 'Desenvolvedor & Professor', en: 'Developer & Tutor' },
             
+            'download-btn': { pt: 'Baixar Currículo', en: 'Download CV' },
+            
             // Seções
             'section-tech': { pt: 'Tecnologias', en: 'Technologies' },
             'section-exp': { pt: 'Experiência Profissional', en: 'Professional Experience' },
